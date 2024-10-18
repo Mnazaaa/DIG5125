@@ -13,6 +13,6 @@ x_values = np.arange(256)
 
 plt.bar(x_values, hist.ravel(), color='gray')
 plt.title("Grayscale Histogram")
-plt.xlabel("Pixel value")
+plt.xlabel("Pixel values")
 plt.ylabel("Frequency")
 plt.show()
